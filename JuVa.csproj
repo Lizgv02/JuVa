@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>True</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\Archivo\Usuarios\UsrAgregar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Archivo\Usuarios\UsrDesactivar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Archivo\Usuarios\UsrModificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>
